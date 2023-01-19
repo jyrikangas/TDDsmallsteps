@@ -96,7 +96,7 @@ function createApp(database) {
 
   function isHolidayTemporal(date) {
     const holidays = database.getHolidays();
-    
+    for (let row of holidays) {}
   }
   function isHoliday(date) {
     const holidays = database.getHolidays();
