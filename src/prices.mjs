@@ -84,6 +84,7 @@ function createApp(database) {
 
   function calculateReductionWithTemporal(date){
     let reduction = 0;
+    
   }
 
   function isMondayTemporal(date) {
