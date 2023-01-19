@@ -102,7 +102,8 @@ function createApp(database) {
         && date.year === holiday.year 
         && date.month === holiday.month 
         && date.day === holiday.day
-        ) {}
+        ) {
+        }
     }
   }
   function isHoliday(date) {
