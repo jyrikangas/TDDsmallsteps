@@ -87,7 +87,7 @@ function createApp(database) {
     if (date && isMondayTemporal(date) && !isHolidayTemporal(date)) {
       reduction = 35;
     }
-    return reduction
+    return reduction;
   }
 
   function isMondayTemporal(date) {
