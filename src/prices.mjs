@@ -29,7 +29,7 @@ function createApp(database) {
       return new Date(dateString);
     }
   }
-  function parseTemporal(dateString) {if (dateString) {}}
+  function parseTemporal(dateString) {if (dateString) {return null}}
 
   function calculateCost(age, type, date, baseCost) {
     if (type === "night") {
