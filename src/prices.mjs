@@ -86,7 +86,8 @@ function createApp(database) {
     let reduction = 0;
   }
 
-  function isMondayTemporal(date) {}
+  function isMondayTemporal(date) {
+  }
   function isMonday(date) {
     return date.getDay() === 1;
   }
