@@ -106,6 +106,7 @@ function createApp(database) {
           return true;
         }
     }
+    return false;
   }
   function isHoliday(date) {
     const holidays = database.getHolidays();
